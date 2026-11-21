@@ -16,7 +16,3 @@ FROM
     pois
 WHERE
     fclass IN ('bakery', 'cafe');
-
-
-SELECT DISTINCT fclass
-FROM landuse_a
